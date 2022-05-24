@@ -1,0 +1,27 @@
+.social {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.social__link {
+    margin-right: 10px;
+    fill: #AFB1B8;
+    padding: 12px 12px;
+    border-radius: 50%;
+    transition: $hover-focus-effect;
+
+    &:last-child {
+        margin-right: 0;
+}
+    &:hover,
+    &:focus {
+        fill: $white-color;
+        background-color: $color-logo;
+        outline: none;
+        transition: $hover-focus-effect;
+}
+}
+.social__icon {
+    display: block;
+    margin: 0 auto;
+}

@@ -1,0 +1,45 @@
+.join {
+    display: flex;
+    flex-direction: column;
+}
+.join__title {
+    display: flex;
+    margin-top: 12px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $white-color;
+}
+.join__item {
+    display: flex;
+}
+.join__link {
+    display: flex;
+    margin-right: 10px;
+    width: 44px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    fill: $white-color;
+    outline: none;
+    transition: $hover-focus-effect;
+    
+    &:last-child {
+        margin-right: 0;
+}
+    &:hover,
+    &:focus {
+        background-color: $color-logo;
+        fill: $white-color;
+        transition: $hover-focus-effect;
+}
+}
+.join__icon {
+    display: block;
+    margin: 0 auto;
+}

@@ -1,0 +1,21 @@
+.logo-footer {
+    margin-bottom: 20px;
+    text-decoration: none;
+    cursor: $cursor-default;
+}
+.logo-footer__primary {
+    color: $color-logo;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+.logo-footer__secondary {
+    color: $white-color;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}

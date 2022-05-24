@@ -1,0 +1,32 @@
+/* Info nav */
+.info {
+    display: flex;
+    margin-left: auto;
+}
+.info__item {
+    align-items: center;
+    & + & {
+    margin-left: 50px;
+}
+}
+.info__link {
+    color: $primary-text-color;
+    fill: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    cursor: $cursor-default;
+    transition: $hover-focus-effect;
+
+    &:hover, :focus {
+    fill: $color-logo;
+    color: $color-logo;
+    transition: $hover-focus-effect;
+    }
+}
+.info__icon {
+    margin-right: 10px;
+    vertical-align: middle;
+}

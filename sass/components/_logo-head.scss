@@ -1,0 +1,20 @@
+.logo-head {
+    text-decoration: none;
+    cursor: $cursor-default;
+}
+.logo-head__primary {
+    color: $color-logo;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+.logo-head__secondary {
+    color: $secondary-text-color;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
