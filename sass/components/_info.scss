@@ -1,14 +1,14 @@
 /* Info nav */
-.info {
-    display: flex;
-    margin-left: auto;
-}
-.info__item {
-    align-items: center;
-    & + & {
-    margin-left: 50px;
-}
-}
+// .info {
+//     display: flex;
+//     margin-left: auto;
+// }
+// .info__item {
+//     align-items: center;
+//     & + & {
+//     margin-left: 50px;
+// }
+// }
 .info__link {
     color: $primary-text-color;
     fill: #757575;

@@ -1,7 +1,7 @@
-.subscribe {
-    display: flex;
-    flex-direction: column;
-}
+// .subscribe {
+//     display: flex;
+//     flex-direction: column;
+// }
 
 .subscribe__title {
     margin-top: 12px;
@@ -22,7 +22,7 @@
     letter-spacing: 0.03em;
     padding: 15px;
     padding-left: 16px;
-    width: 358px;
+    width: 450px;
     height: 50px;
     border-radius: 4px;
     color: $white-color;
@@ -35,7 +35,6 @@
 }
 .subscribe__button {
     padding: 0;
-    margin-left: 12px;
     width: 200px;
     height: 50px;
     font-weight: 700;
@@ -48,6 +47,6 @@
     background-color: $color-logo;
 }
 .subscribe__icon {
-    margin-left: 10px;
+    // margin-left: 10px;
     vertical-align: middle;
 }

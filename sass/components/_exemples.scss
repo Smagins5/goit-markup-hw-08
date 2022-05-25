@@ -1,13 +1,13 @@
-.examples {
-    display: flex;
-    flex-wrap: wrap;
-}
+// .examples {
+//     display: flex;
+//     flex-wrap: wrap;
+// }
 .examples__item {
-    display: block;
-    border: 1px solid #EEEEEE;
-    width: 370px;
-    margin-right: 30px;
-    margin-bottom: 30px;
+    // display: block;
+    // border: 1px solid #EEEEEE;
+    // width: 370px;
+    // margin-right: 30px;
+    // margin-bottom: 30px;
     transition: $hover-focus-effect;
 
     &:hover {
