@@ -162,6 +162,10 @@ p {
   padding: 118px 0;
 }
 
+.service__inner {
+  max-width: 390px;
+}
+
 .service__title {
   text-align: center;
   margin-bottom: 30px;
