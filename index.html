@@ -13,9 +13,10 @@
 </head>
 <body class="body">
     <header class="page-header">
-        <div class="container main-nav">
-        <nav class="main-nav">
-            <a class="logo-head" href="/"><span class="logo-head__primary">Web</span><span class="logo-head__secondary">Studio</span></a>
+        <div class="container">
+        <a class="logo-head" href="/"><span class="logo-head__primary">Web</span><span class="logo-head__secondary">Studio</span></a>
+        <div class="main-nav">
+        <nav>
             <ul class="site-nav list">
                 <li class="site-nav__item"><a href="./index.html" class="site-nav__link--current">Студия</a></li>
                 <li class="site-nav__item"><a href="./portfolio.html" class="site-nav__link">Портфолио</a></li>
@@ -36,7 +37,7 @@
     </header>       
     <main>
         <section class="service">
-            <div class="container">
+            <div class="container service__inner">
             <h1 class="service__title">Эффективные решения для вашего бизнеса</h1>
             <button data-modal-open type="button" class="service__button">Заказать услугу</button>
             </div>
@@ -106,7 +107,9 @@
             <h2 class="team__title">Наша команда</h2>
             <ul class="list">
                 <li class="team__item">
-                    <img src="./images/img-11.jpg" width="270" height="260" alt="фото Игорь Демьяненко">
+                    <img 
+                    srcset="./images/img-111.jpg 1x, ./images/img-111@x2.jpg 2x"
+                    src="./images/img-111.jpg" width="450" alt="фото Игорь Демьяненко">
                     <div class="team__description">
                     <h3 class="team__name">Игорь Демьяненко</h3>
                     <p class="team__position" lang="en">Product Designer</p>
@@ -135,7 +138,9 @@
                         </div>
                 </li>
                 <li class="team__item">
-                    <img src="./images/img-22.jpg" width="270" height="260" alt="фото Ольга Репина">
+                    <img 
+                    srcset="./images/img-222.jpg 1x, ./images/img-222@x2.jpg 2x"
+                    src="./images/img-222.jpg" width="450" alt="фото Ольга Репина">
                     <div class="team__description">
                     <h3 class="team__name">Ольга Репина</h3>
                     <p class="team__position" lang="en">Frontend Developer</p>
@@ -164,7 +169,9 @@
                     </div>
                 </li>
                 <li class="team__item">
-                    <img src="./images/img-33.jpg" width="270" height="260" alt="фото Николай Тарасов">
+                    <img 
+                    srcset="./images/img-333.jpg 1x, ./images/img-333@x2.jpg 2x"
+                    src="./images/img-333.jpg" width="450" alt="фото Николай Тарасов">
                     <div class="team__description">
                     <h3 class="team__name">Николай Тарасов</h3>
                     <p class="team__position" lang="en">Marketing</p>
@@ -193,7 +200,9 @@
                     </div>
                 </li>
                 <li class="team__item">
-                    <img src="./images/img-44.jpg" width="270" height="260" alt="фото Михаил Ермаков">
+                    <img 
+                    srcset="./images/img-444.jpg 1x, ./images/img-444@x2.jpg 2x"
+                    src="./images/img-444.jpg" width="450" alt="фото Михаил Ермаков">
                     <div class="team__description">
                     <h3 class="team__name">Михаил Ермаков</h3>
                     <p class="team__position" lang="en">UI Designer</p>
@@ -309,18 +318,19 @@
                         </a>
                         </div>
                     </div>
-                    <div class="subscribe">
-                        <h3 class="subscribe__title">Подпишитесь на рассылку</h3>
-                            <form>
-                                <label for="email"></label>
-                                <input class="subscribe__input" type="email" name="email" id="email" placeholder="E-mail">
+                    <!-- <div class="subscribe"> -->
+                        <form class="subscribe">                        
+                            <h3 class="subscribe__title">Подпишитесь на рассылку</h3>
+                            
+                                
+                                <input class="subscribe__input" type="email" name="email" placeholder="E-mail">
                                 <button class="subscribe__button" type="submit">Подписаться 
                                     <svg class="subscribe__icon" width="24" height="24">
                                         <use href="./images/icons.svg#icon-telegram"></use>
                                     </svg>
                                 </button>
                             </form>
-                    </div>
+                    <!-- </div> -->
             </div>
         </footer>
                                 <!-- Модалка на Service section -->

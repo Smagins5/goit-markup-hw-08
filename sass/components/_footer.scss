@@ -4,7 +4,10 @@
     // padding-top: 60px;
     // padding-bottom: 60px;
 }
-// .alc {
-//     display: flex;
-//     justify-content: space-between;
-// }
+.alc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    // justify-content: center;
+}

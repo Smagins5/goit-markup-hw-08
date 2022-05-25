@@ -1,6 +1,8 @@
 .logo-head {
     text-decoration: none;
     cursor: $cursor-default;
+    padding: 16px 0;
+    display: block;
 }
 .logo-head__primary {
     color: $color-logo;

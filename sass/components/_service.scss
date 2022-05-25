@@ -1,26 +1,30 @@
 .service {
 
     background-image: linear-gradient(to top, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Background-Img-480.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    // background-repeat: no-repeat;
+    width: 480px;
+    height: 400px;
+    background-size: 480px 400px;
     // background-position: center;
-    max-width: 480px;
-    // width: 480px;
+    // max-width: 480px;
     // margin-left: auto;
     // margin-right: auto;
     background-color: #2F303A;
-    text-align: center;
+    // text-align: center;
     // padding-bottom: 200px;
     // padding-top: 200px;
 
 @media screen and (min-width: 480px) {
-        padding: 118px auto;
+    padding: 118px 0;
+    }
+    &__inner {
+        max-width: 390px;
     }
 }
 
 .service__title {
     text-align: center;
-    margin-top: 0;
+    // margin-top: 0;
     margin-bottom: 30px;
     color: $white-color;
     font-weight: 900;
@@ -30,6 +34,8 @@
     text-transform: uppercase;
 }
 .service__button {
+    display: block;
+    margin: 0 auto; 
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 16px;
@@ -41,4 +47,5 @@
     background: $color-logo;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    border-color: $color-logo;
 }
