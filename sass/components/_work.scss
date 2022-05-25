@@ -3,6 +3,10 @@
 // }
 .work {
     display: none;
+    @media screen and (min-width: 1200px) {
+        display: block;
+        padding: 94px 0;
+    }
 }
 .work__title {
     margin-top: 0;
@@ -13,10 +17,11 @@
     text-align: center;
     letter-spacing: 0.03em;
 }
-// .work__list {
-//     display: flex;
-//     align-items: flex-end;
-// }
+.work__list {
+    @media screen and (min-width: 1200px) {
+    display: flex;
+    }
+}
 .work__item {
     margin-right: 30px;
     position: relative;

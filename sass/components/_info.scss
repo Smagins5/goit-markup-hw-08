@@ -13,12 +13,12 @@
     font-size: 12px;
     @media screen and (min-width: 1200px) {
         font-size: 14px;
-        
     }
     @media screen and (min-width: 768px) {
             &:not(:last-child) {
             margin-bottom: 10px;
-            
+            }
+        }
     @media screen and (min-width: 1200px) {
             &:not(:last-child) {
             margin-bottom: 0;
@@ -26,8 +26,8 @@
             }
     }
 }
-}
-}
+
+
 .info__link {
     color: $primary-text-color;
     fill: #757575;

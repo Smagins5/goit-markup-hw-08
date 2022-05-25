@@ -1,9 +1,12 @@
 .footer {
-    // display: flex;
+    display: flex;
     background-color: #2F303A;
     // padding-top: 60px;
     // padding-bottom: 60px;
     padding: 60px 0;
+    @media screen and (min-width: 1200px) {
+        // display: block;
+    }
 }
 .alc {
     display: flex;
@@ -17,4 +20,17 @@
             flex-wrap: wrap;
             align-items: baseline;
         }
+    @media screen and (min-width: 1200px) {
+        display: flex;
+        justify-content: space-between;
+       
+        // display: flex;
+        // flex-wrap: nowrap;
+        // align-items: flex-start;
+        // flex-direction: row;
+        
+       
+        
+        
+    }
 }

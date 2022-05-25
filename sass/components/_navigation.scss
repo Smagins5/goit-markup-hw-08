@@ -27,7 +27,10 @@
 }
 .site-nav {
     display: flex;
-    // margin-left: 93px;
+
+    @media screen and (min-width: 1200px) {
+    margin-right: 305px;
+    }
 }
 .site-nav__item {
     margin-right: 50px;
