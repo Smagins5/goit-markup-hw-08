@@ -2,8 +2,18 @@
     background-color: #F5F4FA;
     padding: 60px 0;
     // padding-bottom: 94px;
+   
+    
 }
+.team__list {
+@media screen and (min-width: 768px) {
 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+         
+}
 .team__title {
     color: $secondary-text-color;
     font-size: 36px;
@@ -31,6 +41,12 @@
 // }
     &:last-child {
         margin-bottom: 0;
+}
+@media screen and (min-width: 768px) {
+    width: calc(50% - 15px);
+}
+    &:nth-last-child(-n+2) {
+    margin-bottom: 0px;
 }
 }
 // .team__description {
