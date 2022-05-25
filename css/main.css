@@ -431,6 +431,7 @@ p {
 
 .footer {
   background-color: #2F303A;
+  padding: 60px 0;
 }
 
 .alc {
@@ -536,6 +537,7 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin: 0 auto 60px;
 }
 
 .join__title {
@@ -599,9 +601,11 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 100%;
 }
 
 .subscribe__title {
+  margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
@@ -616,6 +620,7 @@ p {
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
+  margin-bottom: 20px;
   max-width: 450px;
   width: 100%;
   height: 50px;
