@@ -1,14 +1,33 @@
+
 /* Info nav */
-// .info {
-//     display: flex;
-//     margin-left: auto;
-// }
-// .info__item {
-//     align-items: center;
-//     & + & {
-//     margin-left: 50px;
-// }
-// }
+.info {
+    @media screen and (min-width: 768px) {
+            margin-left: 84px;
+    @media screen and (min-width: 1200px){
+    display: flex;
+    margin-left: auto;
+}
+}
+}
+.info__item {
+    font-size: 12px;
+    @media screen and (min-width: 1200px) {
+        font-size: 14px;
+        
+    }
+    @media screen and (min-width: 768px) {
+            &:not(:last-child) {
+            margin-bottom: 10px;
+            
+    @media screen and (min-width: 1200px) {
+            &:not(:last-child) {
+            margin-bottom: 0;
+            margin-right: 50px;
+            }
+    }
+}
+}
+}
 .info__link {
     color: $primary-text-color;
     fill: #757575;

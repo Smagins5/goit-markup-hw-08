@@ -1,4 +1,15 @@
 .page-header {
     border-bottom: 1px solid #ECECEC;
+&__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @media screen and (min-width: 768px) {
+            justify-content: space-between;
+    }
+    @media screen and (min-width: 1200px){
+        
+    }
+        
 }
-
+}
