@@ -1,13 +1,10 @@
 .carousel {
     padding-top: 60px;
     padding-bottom: 60px;
-    // padding-top: 94px;
-    // padding-bottom: 94px;
 }
 .carousel__list {
     display: flex;
     flex-wrap: wrap;
-    // justify-content: center;
     margin-bottom: 40px;
 
     @media screen and (min-width: 768px) {

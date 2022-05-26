@@ -7,10 +7,6 @@
     @media screen and (min-width: 1200px) {
         margin: 0;
         align-items: stretch;
-        // justify-content: space-between;
-        
-
-        // margin-right: 70px;
     }
 }
 .address {
@@ -19,9 +15,6 @@
     align-items: center;
     @media screen and (min-width: 1200px) {
         align-items: stretch;
-        
-        
-        
     }
 }
 .address__link {
@@ -33,9 +26,9 @@
     color: rgba(255, 255, 255, 0.6);
     transition: $hover-focus-effect;
 
-//     &:last-child {
-//         margin-bottom: 0;
-// }
+    &:last-child {
+        margin-bottom: 0;
+}
     &:hover,
     &:focus {
         color: $color-logo;
